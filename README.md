@@ -11,7 +11,7 @@ git clone https://github.com/MatiasRiveraCav/Prueba3it.git
 2. Entra en el directorio del proyecto:
 
 ```console
-cd iniciacion-a-angular
+cd prueba3it
 ```
 
 3. Instala las dependencias:
