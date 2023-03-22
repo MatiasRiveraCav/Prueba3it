@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1{
+    color: blue;
+    font-size: xx-large;
+    display: flex;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    width: 380px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.chart{
+    position: absolute;
+    bottom: 0;
+}
+
+input{
+    width: 100px;
+    text-align: end;
+}
+
+.demo-chart {
+    height: 400px;
+  }

@@ -1,0 +1,15 @@
+<app-header titulo="{{title | titlecase}}"></app-header>
+
+<div class="container">
+
+<h1> <p *ngIf="title!='ipc'"> $ </p>{{valor.Valor}} <p *ngIf="title=='ipc'"> % </p></h1>
+
+<div class="item"><h4>Nombre</h4> <input type="text" [value]="title | titlecase"></div>
+<div class="item"><h4>Fecha</h4> <input type="text" [value]="valor.Fecha"></div>
+<div class="item"><h4>Unidad de medida</h4> <input type="text" [value]="unidad"></div>
+
+
+</div>
+
+<div echarts [options]="chartOption" class="demo-chart"></div>
+

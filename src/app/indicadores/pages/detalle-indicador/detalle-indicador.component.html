@@ -1,0 +1,14 @@
+<app-header titulo="{{ title | titlecase }}"></app-header>
+<mat-list>
+  <div  *ngFor="let dato of listaIndicadores">
+    <mat-list-item>
+      <div class="list">
+        <p>{{ dato.Fecha }}</p>
+        <h3> $ {{ dato.Valor }}</h3>
+        
+      </div>
+      
+    </mat-list-item>
+    <mat-divider [inset]="false"></mat-divider>
+  </div>
+</mat-list>
